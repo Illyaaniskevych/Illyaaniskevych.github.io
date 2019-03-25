@@ -1,0 +1,202 @@
+@media (max-width: 1199px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+  body .first .header .container .m-menu-link {
+    display: block;
+    opacity: 0.7;
+  }
+  body .first .header .container .m-menu {
+    display: block;
+  }
+  body .first .header .container .visible-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 768px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+  .seventh .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .seventh .container .contacts {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .seventh .container .contacts .social-net {
+    text-align: center;
+  }
+  .seventh .container #map {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 569px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+  body .first {
+    margin-bottom: 1rem;
+  }
+  body .first .header {
+    padding-top: 1rem;
+  }
+  body .first .content .container h1 {
+    font-size: 3rem;
+  }
+  body .first .content .container h5 {
+    font-size: 1.5rem;
+    margin: 0.6rem 0 0.6rem 0;
+  }
+  body .first .offer .container .offer-text-wrapper {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 3rem;
+  }
+  body .first .offer .container .offer-text-wrapper .offer-text {
+    font-size: 1.2rem;
+  }
+  body .first .offer .container .offer-text-wrapper .offer-btn {
+    width: 10rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    margin: 2.3rem 0 5rem 0;
+  }
+  body .first .offer .container .boarder {
+    display: none;
+  }
+  body .second .container .offer-text h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  body .second .container .offer-text p {
+    text-align: center;
+  }
+  body .second .container .offer-block-wrapper {
+    margin-top: 0;
+  }
+  body .second .container .offer-block-wrapper .offer-block {
+    margin: 1rem 1rem 1rem 1rem;
+  }
+  body .fourth .container .crew-h {
+    font-size: 1.5rem;
+  }
+  body .fourth .container .crew .instructor-card h2 {
+    font-size: 1.1rem;
+  }
+  body .fifth .container .school-text {
+    width: 90vw;
+  }
+  body .fifth .container .school-text h2 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  body .fifth .container .school-text p {
+    text-align: center;
+  }
+  body .fifth .container .school-indicators {
+    width: 100%;
+    overflow: hidden;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+  body .fifth .container .school-indicators .school-indicator span {
+    font-size: 2rem;
+  }
+  body .fifth .container .school-indicators .school-indicator p {
+    font-size: 0.7rem;
+  }
+  body .sixth .container .testimonials-h {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  body .seventh .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .seventh .container .contacts {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  body .seventh .container .contacts .contact-us-h {
+    font-size: 1.5rem;
+  }
+  body .seventh .container .contacts .contacts-list {
+    text-align: left;
+    margin: 1rem 0 1rem 0;
+  }
+  body .seventh .container .contacts .contacts-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 2.5rem;
+  }
+  body .seventh .container .contacts .contacts-list li i {
+    width: 30px;
+  }
+  body .seventh .container .contacts .social-net {
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .seventh .container .contacts .social-net .social-media {
+    margin: 0 0.6rem 0 0.6rem;
+  }
+  body .seventh .container #map {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .fifth .container .school-text h2 {
+    width: 100%;
+  }
+  .fifth .container .school-text p {
+    width: 90vw;
+  }
+}
+/*# sourceMappingURL=media.css.map */

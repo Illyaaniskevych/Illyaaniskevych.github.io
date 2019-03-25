@@ -1,0 +1,263 @@
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        width: 100%;
+        max-width: 100%;
+
+        .first {
+            .header {
+                .container {
+                    .m-menu-link {
+                        display: block;
+                        opacity: 0.7;
+                    }
+
+                    .m-menu {
+                        display: block;
+                    }
+
+                    .visible-lg {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 570px) and (max-width:768px) {
+    body {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .seventh {
+        .container {
+            flex-direction: column;
+
+            .contacts {
+                width: 100%;
+                order: 2;
+
+                .social-net {
+                    text-align: center;
+                }
+            }
+
+            #map {
+                width: 100%;
+                order: 1;
+            }
+        }
+    }
+}
+
+//Iphone se
+@media (min-width:320px) and (max-width:569px) {
+    body {
+        width: 100%;
+        max-width: 100%;
+
+        .first {
+            margin-bottom: 1rem;
+
+            .header {
+                padding-top: 1rem;
+            }
+
+            .content {
+                .container {
+                    h1 {
+                        font-size: 3rem;
+                    }
+
+                    h5 {
+                        font-size: 1.5rem;
+                        margin: 0.6rem 0 0.6rem 0;
+                    }
+                }
+            }
+
+            .offer {
+
+                .container {
+                    .offer-text-wrapper {
+                        width: 100%;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 3rem;
+
+                        .offer-text {
+                            font-size: 1.2rem;
+                        }
+
+                        .offer-btn {
+                            width: 10rem;
+                            height: 3rem;
+                            line-height: 3rem;
+                            font-size: 1.3rem;
+                            margin: 2.3rem 0 5rem 0;
+
+                        }
+                    }
+
+                    .boarder {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .second {
+            .container {
+                .offer-text {
+                    h2 {
+                        font-size: 1.5rem;
+                        text-align: center;
+                    }
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .offer-block-wrapper {
+                    margin-top: 0;
+
+                    .offer-block {
+                        margin: 1rem 1rem 1rem 1rem;
+                    }
+                }
+            }
+        }
+
+        .fourth {
+            .container {
+                .crew-h {
+                    font-size: 1.5rem;
+                }
+
+                .crew {
+                    .instructor-card {
+                        h2 {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .fifth {
+            .container {
+                .school-text {
+                    width: 90vw;
+
+                    h2 {
+                        width: 90%;
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .school-indicators {
+                    width: 100%;
+                    overflow: hidden;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 0;
+
+                    .school-indicator {
+                        span {
+                            font-size: 2rem;
+                        }
+
+                        p {
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sixth {
+            .container {
+                .testimonials-h {
+                    font-size: 1.5rem;
+                    margin: 0;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+
+        .seventh {
+            .container {
+                flex-direction: column;
+
+                .contacts {
+                    width: 100%;
+                    order: 2;
+
+                    .contact-us-h {
+                        font-size: 1.5rem;
+                    }
+
+                    .contacts-list {
+                        text-align: left;
+                        margin: 1rem 0 1rem 0;
+
+                        li {
+                            display: flex;
+                            line-height: 2.5rem;
+
+                            i {
+                                width: 30px;
+                            }
+                        }
+                    }
+
+                    .social-net {
+                        text-align: center;
+                        justify-content: space-around;
+
+                        .social-media {
+                            margin: 0 0.6rem 0 0.6rem;
+                        }
+                    }
+                }
+
+                #map {
+                    width: 100%;
+                    order: 1;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:375px) {
+    .fifth {
+        .container {
+            .school-text {
+                h2 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 90vw;
+                }
+            }
+        }
+    }
+}
