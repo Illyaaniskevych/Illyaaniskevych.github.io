@@ -145,7 +145,7 @@ body .align-items-center {
 }
 
 .first {
-  background-image: url("../img/mainBg.webp");
+  background-image: url("../img/mainBg.png");
   height: 100%;
   background-size: cover;
   background-position: center center;
@@ -482,7 +482,7 @@ body .align-items-center {
 }
 
 .fifth {
-  background-image: url("../img/bgSchool.webp");
+  background-image: url("../img/bgSchool.png");
   height: 100%;
   background-size: cover;
   background-position: center center;
