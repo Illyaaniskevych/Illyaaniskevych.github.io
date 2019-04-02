@@ -1,2 +1,2 @@
 # illyaaniskevych.github.io
-[I'm an inline-style link](https://illyaaniskevych.github.io/SnowboardingSchool/)
+[Snowboarding&Ski School](https://illyaaniskevych.github.io/SnowboardingSchool/)
