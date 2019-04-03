@@ -1,4 +1,4 @@
-//Things
+ //Things
 html{
     scroll-behavior: smooth;
     font-display: auto;
@@ -77,7 +77,7 @@ body {
         transform: translate(-50%, -50%);
         animation: 1.5s spin infinite linear;
     }
-
+    
     &.done {
         opacity: 0;
         visibility: hidden;
