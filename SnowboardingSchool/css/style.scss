@@ -1,14 +1,16 @@
 //Things
 html{
     scroll-behavior: smooth;
+    font-display: auto;
 }
 body {
     font-family: 'Catamaran', sans-serif;
+    font-display: auto;
     padding: 0;
     margin: 0;
     background-color: #f6f6f6;
     font-size: 18px;
-
+    
     h1 {
         font-size: 40px;
     }

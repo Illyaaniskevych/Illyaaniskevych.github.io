@@ -23,7 +23,7 @@ body {
 .container form legend {
   color: #fff;
   font-size: 2.8rem;
-  margin: 3rem;
+  margin: 3rem 0 3rem 0;
 }
 
 .container form input {
