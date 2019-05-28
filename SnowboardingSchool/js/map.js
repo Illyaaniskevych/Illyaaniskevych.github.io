@@ -21,3 +21,14 @@ function initMap(){
         info.open(myMap, marker);
     })
 }
+
+//Show map when scroll to section
+var reviews = $('.fifth');
+var reviewsTop = reviews.offset().top;
+$(window).scroll(function(){
+    var windowTop = $(this).scrollTop();
+    if(windowTop > reviewsTop) {
+        $('#map').html('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJfDbP7SKkKuDc78PQwFomZCsEiaBjQd0&callback=initMap" async defer></script>')
+        $(window).unbind('scroll')
+    }
+});
