@@ -1,7 +1,7 @@
  //Things
 html{
     scroll-behavior: smooth;
-    font-display: auto;
+    font-display: swap;
 }
 body {
     font-family: 'Catamaran', sans-serif;
@@ -10,11 +10,12 @@ body {
     margin: 0;
     background-color: #f6f6f6;
     font-size: 18px;
-    
+    font-display: auto;
+
     h1 {
         font-size: 40px;
     }
-
+    
     ul,
     li {
         display: block;
